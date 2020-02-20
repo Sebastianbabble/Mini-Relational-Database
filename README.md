@@ -20,12 +20,12 @@ This project implements a mini relational database. The data inside is stored us
 10. select * from employee where dep = CS or year > 2014 and year < 2018 or salary >= 265000
 
 ***
-<img width="742" alt="Screen Shot 2020-02-20 at 11 49 03 AM" src="https://user-images.githubusercontent.com/26701495/74972778-32963400-53d7-11ea-91cc-3b1c36462caf.png">
+<img width="542" alt="Screen Shot 2020-02-20 at 11 49 03 AM" src="https://user-images.githubusercontent.com/26701495/74972778-32963400-53d7-11ea-91cc-3b1c36462caf.png">
 
 
 ## **Implementation** 
 
- This database holds its data in tables which are binary files stored on disk. This allows the data to be stored and loaded when opening and closing sessions. To parse through the queires I use a parser class that uses a tokenizer to retrieve all valid tokens and stores them in a vector. This vector is then run through a statemachine in which I check each state of the query and if its a valid query then proceed to retrieving data.
+ This database holds its data in tables which are binary files stored on disk. This allows the data to be stored and loaded when opening and closing sessions. To parse through the queires I use a parser class that uses a tokenizer to retrieve all valid tokens and stores them in a vector. This vector is then run through a statemachine in which I check each state of the query and if its a valid query then proceed to retrieving data and displaying result.
  
  ## Run
    This program can be runned through the terminal using cmake. Clone the repisitory to a distinct directory and once in the directory you can type ./RDB to run the program. To exit out of the program type control-c. 
