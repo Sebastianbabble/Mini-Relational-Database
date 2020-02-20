@@ -1,0 +1,18 @@
+make table employee fields last, first, dep, salary, year
+[1]. make table employee fields last, first, dep, salary, year
+SQL::run_command: make table: last,first,dep,salary,year
+SQL::make_table(employee, last,first,dep,salary,year)
+Table employee created. cols: last,first,dep,salary,year
+inster into employee values Blow, Joe, CS, 100000, 2018
+select * from employee
+[2]. select * from employee
+Table name: employee*808, records: 0
+         record           last          first            dep         salary           year
+
+
+select * from student
+[1]. select * from student
+Table name: *808, records: 0
+         record
+
+
