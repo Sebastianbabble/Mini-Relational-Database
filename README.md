@@ -1,6 +1,5 @@
-<h1 align = center>
- Relational Database
- </h1>
+***
+# Relational Database
 This project implements a mini relational database. The data inside is stored using a b-tree data structure. You can access the database through fundamental sql commands. You can make tables and select tables. You can select using conditional statements as well as select everything via *.
 ***
 ## SQL queries 
