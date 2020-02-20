@@ -19,7 +19,7 @@ This project implements a mini relational database. The data inside is stored us
 9. select * from emplyee where last = "Van Gogh" or last = Jackson and salary >= 165000
 10. select * from employee where dep = CS or year > 2014 and year < 2018 or salary >= 265000
 ***
-<img width="1105" alt="make" src="https://user-images.githubusercontent.com/26701495/74970504-50fa3080-53d3-11ea-8a73-f45f56935340.png">
+<img width="742" alt="Screen Shot 2020-02-20 at 10 31 20 AM" src="https://user-images.githubusercontent.com/26701495/74970836-f1e8eb80-53d3-11ea-8f3e-1f894d274ee0.png">
 
 ## **Implementation** 
 
