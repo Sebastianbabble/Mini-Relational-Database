@@ -8,25 +8,16 @@ This project implements a mini relational database. The data inside is stored us
 3. select - select everything from a table or specific fields using conditionals
 ***
 ## **Query examples**
-1.` make table employee fields last, first, dep, salary, year`
-
-2. `insert into employee values Blow, Joe, CS, 100000, 2018`
-
-3. `insert into employee values Yang, Bo, CS, 160000, 2013`
-
-4. `select * from employee`
-
-5. `select * from student where lname = Jackson`
-
-6. `select * from employee where salary <= 23500`
-
-7. `select * from student where major = "CS" and age < 25`
-
-8. `select * from student where fname = Flo or lname = Jackson`
-
-9. `select * from emplyee where last = "Van Gogh" or last = Jackson and salary >= 165000`
-
-10. `select * from employee where dep = CS or year > 2014 and year < 2018 or salary >= 265000`
+1. make table employee fields last, first, dep, salary, year
+2. insert into employee values Blow, Joe, CS, 100000, 2018
+3. insert into employee values Yang, Bo, CS, 160000, 2013
+4. select * from employee
+5. select * from student where lname = Jackson
+6. select * from employee where salary <= 23500
+7. select * from student where major = "CS" and age < 25
+8. select * from student where fname = Flo or lname = Jackson
+9. select * from emplyee where last = "Van Gogh" or last = Jackson and salary >= 165000
+10. select * from employee where dep = CS or year > 2014 and year < 2018 or salary >= 265000
 
 ***
 <img width="742" alt="Screen Shot 2020-02-20 at 11 49 03 AM" src="https://user-images.githubusercontent.com/26701495/74972778-32963400-53d7-11ea-91cc-3b1c36462caf.png">
