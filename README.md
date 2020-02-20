@@ -1,5 +1,10 @@
 ***
-# Relational Database
+
+<h1 align = center>Relational Database</h1>
+<h1 align = center>
+<img width= "542" alt="Screen Shot 2020-02-20 at 11 49 03 AM" src="https://user-images.githubusercontent.com/26701495/74972778-32963400-53d7-11ea-91cc-3b1c36462caf.png">
+ </h1>
+
 This project implements a mini relational database. The data inside is stored using a b-tree data structure. You can access the database through fundamental sql commands. You can make tables and select tables. You can select using conditional statements as well as select everything via *.
 ***
 ## SQL queries 
@@ -20,7 +25,6 @@ This project implements a mini relational database. The data inside is stored us
 10. select * from employee where dep = CS or year > 2014 and year < 2018 or salary >= 265000
 
 ***
-<img width="542" alt="Screen Shot 2020-02-20 at 11 49 03 AM" src="https://user-images.githubusercontent.com/26701495/74972778-32963400-53d7-11ea-91cc-3b1c36462caf.png">
 
 
 ## **Implementation** 
