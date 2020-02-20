@@ -1,5 +1,6 @@
-![](Desktop/READMEimg/make.png)
-# Relational Database
+<h1 align = center>
+ Relational Database
+ </h1>
 This project implements a mini relational database. The data inside is stored using a b-tree data structure. You can access the database through fundamental sql commands. You can make tables and select tables. You can select using conditional statements as well as select everything via *.
 ***
 ## SQL queries 
@@ -8,8 +9,8 @@ This project implements a mini relational database. The data inside is stored us
 3. select - select everything from a table or specific fields using conditionals
 ***
 ## **Query examples**
->1. make table employee fields last, first, dep, salary, year
->2. insert into employee values Blow, Joe, CS, 100000, 2018
+1. make table employee fields last, first, dep, salary, year
+2. insert into employee values Blow, Joe, CS, 100000, 2018
 3. insert into employee values Yang, Bo, CS, 160000, 2013
 4. select * from employee
 5. select * from student where lname = Jackson
