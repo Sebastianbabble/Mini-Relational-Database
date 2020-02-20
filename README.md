@@ -13,6 +13,7 @@ This project implements a mini relational database. The data inside is stored us
 3. select - select everything from a table or specific fields using conditionals
 ***
 ## **Query examples**
+```
 1. make table employee fields last, first, dep, salary, year
 2. insert into employee values Blow, Joe, CS, 100000, 2018
 3. insert into employee values Yang, Bo, CS, 160000, 2013
@@ -23,6 +24,7 @@ This project implements a mini relational database. The data inside is stored us
 8. select * from student where fname = Flo or lname = Jackson
 9. select * from emplyee where last = "Van Gogh" or last = Jackson and salary >= 165000
 10. select * from employee where dep = CS or year > 2014 and year < 2018 or salary >= 265000
+```
 
 ***
 
@@ -35,6 +37,8 @@ This project implements a mini relational database. The data inside is stored us
    This program can be runned through the terminal using cmake. Clone the repisitory to a distinct directory and once in the directory you can type ./RDB to run the program. To exit out of the program type control-c. 
  
  ## Future improvements
-    1. The ability to delete and merge tables
-    2. An exit command instead of control-c
-    3. Some sort of GUI
+ 1. The ability to delete and merge tables
+ 2. An exit command instead of control-c
+ 3. Display error message with invalid commands
+ 
+    
