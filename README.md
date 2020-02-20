@@ -34,4 +34,3 @@ This project implements a mini relational database. The data inside is stored us
     1. The ability to delete and merge tables
     2. An exit command instead of control-c
     3. Some sort of GUI
- 
